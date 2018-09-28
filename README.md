@@ -22,6 +22,8 @@ const sse = new SSEFetcher(url, opts);
 sse.close();
 ```
 
+Demo: https://sse-fetcher.glitch.me/.
+
 ## Files
 
 * `lib/index.ts` - Original typescript.
