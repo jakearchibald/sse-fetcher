@@ -1,0 +1,30 @@
+{
+  "name": "sse-fetcher",
+  "version": "1.0.0",
+  "description": "SSE events reimplemented on top of fetch()",
+  "main": "./dist/SSEFetcher.mjs",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakearchibald/sse-fetcher.git"
+  },
+  "keywords": [
+    "SSE",
+    "EventSource",
+    "server sent events"
+  ],
+  "author": "Jake Archibald",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jakearchibald/sse-fetcher/issues"
+  },
+  "homepage": "https://github.com/jakearchibald/sse-fetcher#readme",
+  "devDependencies": {
+    "rollup": "^0.66.2",
+    "rollup-plugin-typescript2": "^0.17.0",
+    "rollup-plugin-terser": "^3.0.0"
+  }
+}

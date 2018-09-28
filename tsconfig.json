@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "strict": true,
+    "target": "esnext",
+    "declarationDir": "./"
+  },
+  "files": ["lib/index.ts"]
+}
