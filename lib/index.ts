@@ -193,7 +193,7 @@ export default class SSEFetcher {
         const index = line.indexOf(':');
         const field = line.slice(0, index);
         let value = line.slice(index + 1);
-        // Stript single leading space in value
+        // Strip single leading space in value
         if (value[0] === ' ') value = value.slice(1);
         this._process(field, value);
       } else {
